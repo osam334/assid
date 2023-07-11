@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+    /* header section */
+}
+.header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: pink;
+    padding: 100px  ;  
+    margin-bottom: 0px;
+    
+
+}
+.header-text{
+    
+}
+.photo{
+    height: 500px;
+   
+  
+}
+.h1-text{
+    font-size: 40px;
+}
+.p-text{
+    width: 50%;
+    margin-top: 10px;
+    
+
+}
+.btn{
+    padding: 10px;
+    background-color: crimson;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+/* bonous section */
+.bonous-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-right: 50px;
+    padding: 50px;
+   
+}
+.bonous-box1{
+  height: 200px;
+  width: 200px;
+  border-radius: 400px 400px 0px 0px ;
+  background-color: palevioletred;
+  
+  
+
+  }
+.bonous-box2{
+  height:200 px;
+  width: 200px;
+  border-radius: 400px 400px 0px 0px ;
+  background-color:burlywood;
+
+  }
+.bonous-box3{
+  height:200 px;
+  width: 200px;
+  border-radius: 400px 400px 0px 0px ;
+  background-color:darkgrey;
+
+
+  }
+.bonous-title{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.bonous-text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.bonous-photo{
+    height: 200px; 
+    background-position: center;
+    
+}
+/* banner */
+.banner{
+    height: 100vh;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.banner-title{
+    font-size: 40px;
+}
+.banner-btn{
+    padding: 10px;
+    background-color: crimson;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    /* instegram part */
+}
+.text-un{
+    text-decoration:dotted;
+    
+}
+.instegram-box{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px ;
+
+}
+.ins-photo{
+    height: 250px;
+}
+.ins-text{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.ins-p{
+    text-align: center;
+}
+/* deal part */
+.deal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deal1{
+    width: 66%;
+    height: 100%;
+    border: 2px solid; 
+    padding: 0px;
+    margin-bottom: 50px;
+}
+.deal-photo{
+    width: 100%;
+    
+    
+}
+
+
+/* footer part */
+.footer{
+    height: 100vh;
+    border: 2px solid red;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.footer-h1{
+    color:crimson;
+
+}
+.footer-title{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-h5{
+    text-align: center;
+    margin-top: 30px;
+}
